@@ -1,0 +1,26 @@
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java"/>
+  <classpathentry kind="src" path="src/main/resources" including="**/*.xml|*.xml|**/*.properties|*.properties|**/*.conf|*.conf" excluding="**/.svn/*|**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar" sourcepath="M2_REPO/cglib/cglib-nodep/2.2/cglib-nodep-2.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/phoebus/Local/mvn_repo/cglib/cglib-nodep/2.2/cglib-nodep-2.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/easymock/easymock/3.0/easymock-3.0.jar" sourcepath="M2_REPO/org/easymock/easymock/3.0/easymock-3.0-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/phoebus/Local/mvn_repo/org/easymock/easymock/3.0/easymock-3.0-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.8.1/junit-4.8.1.jar" sourcepath="M2_REPO/junit/junit/4.8.1/junit-4.8.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/objenesis/objenesis/1.2/objenesis-1.2.jar" sourcepath="M2_REPO/org/objenesis/objenesis/1.2/objenesis-1.2-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/Users/phoebus/Local/mvn_repo/org/objenesis/objenesis/1.2/objenesis-1.2-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="src" path="/printing-client"/>
+  <classpathentry kind="src" path="/printing-util"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+</classpath>
