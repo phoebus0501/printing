@@ -10,7 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 生成json http://localhost:8080/service/greeting/sampleJsonControl.json
+ * 生成json http://localhost:8080/test/springRestController.json
  * 
  * @author <a href="mailto:xingheng.yxc@taobao.com">xingheng.yxc</a>
  * @version 1.0
