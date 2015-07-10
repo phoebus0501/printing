@@ -18,6 +18,18 @@
 			<groupId>com.phoebus.printing</groupId>
 			<artifactId>printing-biz</artifactId>
 		</dependency>
+
+		<!-- velociy -->
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 </project>
